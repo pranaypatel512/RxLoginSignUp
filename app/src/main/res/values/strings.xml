@@ -7,4 +7,13 @@
     <string name="str_password">Password</string>
     <string name="str_enter_valid_email">Invalid Email</string>
     <string name="str_enter_password">Invalid Password</string>
+    <string name="str_password_must_be_same">Password does not match</string>
+    <string name="str_confirm_password">Confirm password</string>
+    <string name="str_phone">Phone</string>
+    <string name="str_i_accept">I accept terms and conditions</string>
+    <string name="str_invalid_phone_number">Invalid phone number</string>
+    <string name="str_signup_success">Great! You are ready to SignUp.</string>
+    <string name="str_please_accept">Please accept terms and conditions</string>
+    <string name="str_share">Share</string>
+    <string name="str_repo_url" ></string>
 </resources>
