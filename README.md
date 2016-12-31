@@ -1,5 +1,5 @@
 # RxLoginSignUp
-Login/SignUp screen with form validation using RxJava.
+Login/SignUp screen with form validation using RxJava and RxAndroid.
 
 ### Login Screen Validation:
 ![alt tag](https://github.com/pranaypatel512/RxLoginSignUp/blob/master/app/screenshots/login_validation.png)
