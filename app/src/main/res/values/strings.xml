@@ -15,5 +15,5 @@
     <string name="str_signup_success">Great! You are ready to SignUp.</string>
     <string name="str_please_accept">Please accept terms and conditions</string>
     <string name="str_share">Share</string>
-    <string name="str_repo_url" ></string>
+    <string name="str_repo_url" >https://github.com/pranaypatel512/RxLoginSignUp</string>
 </resources>
