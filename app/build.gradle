@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.example.pranay.rxloginsignup"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+def SUPPORT_LIB_VERSION="25.0.0"
+def RX_JAVA_VERSION="2.0.3"
+def RX_ANDROID_VERSION="2.0.1"
+def BUTTER_KNIFE_VERSION="8.4.0"
+def RX_BINDING_VERSION="0.4.0"
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile "com.android.support:appcompat-v7:$SUPPORT_LIB_VERSION"
+    compile "com.android.support:design:$SUPPORT_LIB_VERSION"
+    testCompile 'junit:junit:4.12'
+    compile "io.reactivex.rxjava2:rxjava:$RX_JAVA_VERSION"
+    compile "io.reactivex.rxjava2:rxandroid:$RX_ANDROID_VERSION"
+    compile "com.jakewharton.rxbinding:rxbinding:$RX_BINDING_VERSION"
+    compile "com.jakewharton:butterknife:$BUTTER_KNIFE_VERSION"
+}
